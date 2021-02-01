@@ -1,0 +1,19 @@
+#Membantu pemilik supermarket dalam menghitung total jumlah hasil penjualannya
+#Menggunakan Python
+
+HargaStrawberry = 30000
+HargaJeruk = 15000
+HargaAnggur = 42000
+HargaApel = 38000
+HargaSemangka = 21000
+BeratStrawberry = float(input('Berat Strawberry: '))
+BeratJeruk = float(input('Berat Jeruk: '))
+BeratAnggur = float(input('Berat Anggur: '))
+BeratApel = float(input('Berat Apel: '))
+BeratSemangka = float(input('Berat Semangka: ')) 
+print('Total Harga Strawberry','Rp', BeratStrawberry*HargaStrawberry)
+print('Total Harga Jeruk','Rp', BeratJeruk*HargaJeruk)
+print('Total Harga Anggur','Rp', BeratAnggur*HargaAnggur)
+print('Total Harga Apel','Rp', BeratApel*HargaApel)
+print('Total Harga Semangka','Rp', BeratSemangka*HargaSemangka)
+print('Total Harga Seluruh Buah','Rp', BeratStrawberry*HargaStrawberry+BeratJeruk*HargaJeruk+BeratAnggur*HargaAnggur+BeratApel*HargaApel+BeratSemangka*HargaSemangka)
